@@ -7,11 +7,11 @@ import tensorflow as tf
 import random
 import os
 
-# Set seeds and environment
-random.seed(1)
-np.random.seed(1)
-tf.random.set_seed(1)
-os.environ['TF_DETERMINISTIC_OPS'] = '1'
+# # Set seeds and environment
+# random.seed(1)
+# np.random.seed(1)
+# tf.random.set_seed(1)
+# os.environ['TF_DETERMINISTIC_OPS'] = '1'
 
 # Load entire dataset
 full_dataset = tf.keras.utils.image_dataset_from_directory(
